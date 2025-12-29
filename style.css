@@ -1,0 +1,121 @@
+
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-image: url("bg.jpg"); /* Your background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            color: #fff;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .logo{
+        display: flex;
+        flex-direction: column;   /* logo upar, text neechay */
+        align-items: center; 
+        margin: 0;
+        padding: 0;
+        }
+        .logo img {
+            display: flex;
+            width: 40px;      /* apni need ke hisaab se change */
+            margin-bottom: 0px;     /* image distort nahi hogi */            
+            flex-direction: column;   /* logo upar, text neechay */ 
+            margin: 0;
+            padding: 0;
+        }
+        .logo h3{              /* default gap remove */
+            font-size: 12px;
+            margin-top: 0%;
+            margin: 0;
+            padding: 0;
+            }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: calc(100vh - 80px); /* subtract header height */
+            padding: 20px;
+            background: rgba(0,0,0,0.3);
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .hero form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero input[type="text"], .hero input[type="email"], .hero input[type="number"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 300px;
+            border: none;
+            border-radius: 5px;
+        }
+        .hero button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #4CAF50;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hero button:hover {
+            background-color: #45a049;
+        }
+
+        section {
+            padding: 80px 50px;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        section p {
+            font-size: 18px;
+            text-align: center;
+        }
+
